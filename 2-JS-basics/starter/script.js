@@ -140,10 +140,10 @@ function tipCalculation (bill){
     while (i <= bill.length){
         
         if (bill.indexof[i] >= 50 && bill.indexof[i] < 200 ){
-            billWithTip.push(bill.indexof[i]*0.2)
+            billWithTip.push(bill.indexof[i]*0.15)
         }
         else if (bill.indexof[i] < 50 ){
-            billWithTip.push(bill.indexof[i]*0.15)
+            billWithTip.push(bill.indexof[i]*0.2)
         }
         
         else if (bill.indexof[i] > 200 ){
